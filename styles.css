@@ -1,3 +1,7 @@
+body{
+    background-color: violet;
+}
+
 #board{
     margin: 0%;
     padding: 3em;
@@ -8,12 +12,15 @@
     width: 302px;
     clear: both;
 }
-
 .row > div {
+    font-size: 75px;
+    line-height: 100px;
+    cursor: pointer;
   float: left;
   height: 100px;
-  width: 100px  
+  width: 100px 
 }
+
 .center{
     border-top: 1px black solid;
 }
@@ -26,4 +33,17 @@
 .bottom{
     border-top: 1px black solid ;
 }
+#buttonDiv{
+    margin: auto;
+    text-align: center;
+    color: red;
+    background-color: violet;
+}
 
+input[type = "button"]{
+    border-color:whitesmoke;
+    border-width: 5px;
+    background-color:rgb(61, 50, 30);
+    font-size: medium;
+    color:pink ;
+}
